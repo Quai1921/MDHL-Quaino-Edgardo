@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-header {
+    background-image: linear-gradient(rgba(203, 203, 221, 0.5), rgba(107, 107, 4, 0.5)), url(../images/design1_image2.jpg);
+    background-size: cover;
+    background-position-y: 30%;
+    height: 350px;
+
+}
+
+.header_text {
+    margin-left: 2vw;
+    line-height: 350px;
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px #27292b;
+}
+
+.header-img {
+    position: absolute;
+    left: 80vw;
+    top: 260px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    border-style: groove;
+    border-color: rgb(224, 192, 12);
+}
+
+.background-title {
+    top: 345px;
+    width: 100vw;
+    height: 40px;
+    background-color: black;
+    border-style: groove;
+    border-color: rgb(224, 192, 12);
+    border-left: none;
+    border-right: none;
+}
+
+aside>nav .browser {
+    display: inline-block;
+    position: fixed;
+}
+
+nav a {
+    display: block;
+    padding-top: 40px;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 130px;
+    font-size: 20px;
+}
+
+.title {
+    font-weight: bold;
+    position: absolute;
+    left: 41vw;
+    top: 355px;
+    background-color: rgb(0, 0, 0);
+    color: white
+}
+
+.subtitle,
+.subtitle-about {
+    margin-left: 250px;
+    margin-top: 35px;
+}
+
+.paragraph,
+.email,
+.paragraph-about {
+    margin-left: 270px;
+    margin-top: 10px;
+}
+
+.title,
+.subtitle,
+.paragraph,
+.header_text,
+.email,
+.subtitle-about,
+.paragraph-about,
+a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.calendar {
+    position: absolute;
+    left: 10vw;
+    top: 415px;
+}
+
+.articles {
+    position: absolute;
+    left: 10vw;
+    top: 415px;
+    margin-right: 25vw;
+}
+
+.contact {
+    position: absolute;
+    left: 8vw;
+    top: 450px;
+}
+
+.gallery img {
+    display: inline;
+    border-radius: 25px;
+    border-style: groove;
+    border-color: rgb(224, 192, 12);
+    margin-top: 50px;
+    width: 300px;
+    height: 210px;
+    margin-left: 200px;
+}
+
+.image1,
+.image2,
+.image3 {
+    transition: transform 0.5s;
+}
+
+
+.image1:hover,
+.image2:hover,
+.image3:hover {
+    transform: scale(1.05)
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+#selected {
+    color: black;
+    text-decoration: none;
+}
