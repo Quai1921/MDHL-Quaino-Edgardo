@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-header {
+    min-height: 250px;
+    padding: 0px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    /* align-items: center; */
+    justify-content: space-between;
+    background-image: url(../images/design1_image3.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.header_text {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 75px;
+    font-style: oblique;
+    text-shadow: 3px 4px #8b8989;
+}
+
+a{
+    transition: transform 0.2s
+}
+
+a:hover{
+    transform: scale(1.1)
+}
+
+.nav-browser1,
+.nav-browser2,
+.nav-browser3,
+.nav-browser4,
+.nav-browser5 {
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.nav-browser1 {
+    left: 60vw;
+}
+
+.nav-browser2 {
+    left: 64vw;
+}
+
+.nav-browser3 {
+    left: 71.5vw;
+}
+
+.nav-browser4 {
+    left: 83.5vw;
+}
+
+.nav-browser5 {
+    left: 93vw;
+}
+
+.navegation {
+    list-style: none;
+}
+
+a.nav-browser1[href="#"],
+a.nav-browser2[href="#"],
+a.nav-browser3[href="#"],
+a.nav-browser4[href="#"],
+a.nav-browser5[href="#"] {
+    color: rgb(240, 199, 17);
+    text-decoration: underline;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100px;
+    background-color: rgb(240, 199, 17);
+    color: rgb(12, 53, 11);
+    font-size: 1.5rem;
+    font-style: oblique;
+}
+
+a.nav-browser1[href="#"],
+a.nav-browser2[href="#"],
+a.nav-browser3[href="#"],
+a.nav-browser4[href="#"] {
+    color: rgb(240, 199, 17);
+    text-decoration: underline;
+}
+
+.headers-list {
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(240, 199, 17);
+    text-shadow: 3px 1px #5c5b5b;
+    font-style: italic;
+    
+}
+
+dl,
+ol,
+h3,
+ul {
+    padding-left: 3rem;
+    line-height: 2rem;
+}
+
+h3 {
+    font-size: 2rem;
+    text-decoration: underline;
+    background-color: rgb(240, 199, 17);
+    width: 100vw;
+    min-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(12, 53, 11);
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-list {
+    font-size: 1.3rem;
+}
+
+.text-icon {
+    list-style-type: lower-alpha
+}
+
+.sportsmanship {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #607c6f;
+    min-height: 9rem;
+}
+
+.allplay {
+    background-color: rgb(240, 199, 17);
+    min-height: 6rem;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headers-list-ap {
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: italic;
+    color: rgb(12, 53, 11);
+}
+
+.un-list {
+    background-color: rgb(240, 199, 17);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    padding-left: 7rem;
+}
+
+.dimensions {
+    background-color: #607c6f;
+}
+
+

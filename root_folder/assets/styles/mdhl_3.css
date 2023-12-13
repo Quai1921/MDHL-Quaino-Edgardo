@@ -1,0 +1,360 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.container-header {
+    min-height: 250px;
+    padding: 0px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    /* align-items: center; */
+    justify-content: space-between;
+    background-image: url(../images/design1_image3.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.header_text {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 80px;
+    font-style: oblique;
+    text-shadow: 3px 4px #8b8989;
+}
+
+a{
+    transition: transform 0.2s
+}
+
+a:hover{
+    transform: scale(1.1)
+}
+
+.nav-browser1,
+.nav-browser2,
+.nav-browser3,
+.nav-browser4,
+.nav-browser5 {
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.nav-browser1 {
+    left: 60vw;
+}
+
+.nav-browser2 {
+    left: 64vw;
+}
+
+.nav-browser3 {
+    left: 71.5vw;
+}
+
+.nav-browser4 {
+    left: 83.5vw;
+}
+
+.nav-browser5 {
+    left: 93vw;
+}
+
+.navegation {
+    list-style: none;
+}
+
+a.nav-browser1[href="#"],
+a.nav-browser2[href="#"],
+a.nav-browser3[href="#"],
+a.nav-browser4[href="#"],
+a.nav-browser5[href="#"] {
+    color: rgb(240, 199, 17);
+    text-decoration: underline;
+}
+
+/* TITLE */
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(240, 199, 17);
+    color: rgb(12, 53, 11);
+    font-size: 1.5rem;
+    font-style: oblique;
+}
+
+/* BODY - HOME - ABOUT*/
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 580px;
+    background-color: #607c6f;
+}
+
+#date-1,
+#date-2,
+#date-3 {
+    display: flex;
+    border-radius: 25px;
+    width: 580px;
+    height: 340px;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(240, 199, 17);
+    transition: transform 0.5s;
+    box-shadow: 3px 3px 3px rgb(34, 34, 34)
+}
+
+#date-1:hover,
+#date-2:hover,
+#date-3:hover{
+    transform: scale(1.1)
+}
+
+
+.subtitle, .subtitle-about {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.paragraph, .paragraph-about {
+    color: rgb(98, 99, 100);
+    font-size: 1.3rem;
+}
+
+.image1,
+.image2,
+.image3 {
+    width: 300px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* PAGE - CONTACT */
+.contact {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.email {
+    font-size: 1.5rem;   
+}
+
+/* BODY - ABOUT */
+.articles {
+    display: flex;
+    padding-top: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 580px;
+    background-color: #607c6f;
+}
+
+#article-1,
+#article-2,
+#article-3 {
+    display: flex;
+    border-radius: 25px;
+    width: 580px;
+    height: 340px;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240, 199, 17);
+    text-align: center;
+    gap: 15px;
+    transition: transform 0.5s;
+    box-shadow: 3px 3px 3px rgb(34, 34, 34)
+}
+
+#article-1:hover,
+#article-2:hover,
+#article-3:hover{
+    transform: scale(1.1)
+}
+
+.headers-list {
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(240, 199, 17);
+    text-shadow: 3px 1px #5c5b5b;
+    font-style: italic;
+    
+}
+
+/* BODY - RULES */
+dl,
+ol,
+.ihf-field,
+ul {
+    padding-left: 3rem;
+    line-height: 2rem;
+}
+
+.ihf-field {
+    font-size: 2rem;
+    text-decoration: underline;
+    background-color: rgb(240, 199, 17);
+    width: 100vw;
+    min-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(12, 53, 11);
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-list {
+    font-size: 1.3rem;
+}
+
+.text-icon {
+    list-style-type: lower-alpha
+}
+
+.sportsmanship {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #607c6f;
+    min-height: 9rem;
+}
+
+.allplay {
+    background-color: rgb(240, 199, 17);
+    min-height: 6rem;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headers-list-ap {
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: italic;
+    color: rgb(12, 53, 11);
+}
+
+.un-list {
+    background-color: rgb(240, 199, 17);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    padding-left: 7rem;
+}
+
+.dimensions {
+    background-color: #607c6f;
+}
+
+/* BODY - GAME INFORMATION */
+.game-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100px;
+    background-color: rgb(240, 199, 17);
+}
+
+
+caption {
+    font-size: 2.3rem;
+    color: rgb(12, 53, 11);
+    text-decoration: underline;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.7rem;
+}
+
+table {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    border-collapse: collapse;
+    margin-bottom: 1.7rem;
+}
+
+th {
+    font-size: 1.5rem;
+    background-color: rgb(107, 124, 106);
+    color: white;
+    min-width: 300px;
+    height: 40px;
+    border-left: 2px solid rgb(221, 208, 149);
+}
+
+tbody {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(221, 208, 149);
+    text-align: center;
+}
+
+td {
+    height: 45px;
+    border: 2px solid rgb(107, 124, 106);
+}
+
+h4 {
+    margin-top: 0.1rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    background-color: rgb(245, 231, 168);
+    width: 100vw;
+    min-height: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    color: rgb(12, 53, 11);
+    gap: 0.5rem;
+} 
+
+span {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#article-fall {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 99vw;
+}
+
+a[href="mailto:mdhl@chihockey.org"],
+a[href="tel:+6306908132"]{
+    transform: none;
+}
