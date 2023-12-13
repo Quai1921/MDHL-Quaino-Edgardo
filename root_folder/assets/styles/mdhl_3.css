@@ -249,7 +249,7 @@ article {
 
 .allplay {
     background-color: rgb(240, 199, 17);
-    min-height: 6rem;
+    min-height: 8rem;
     display: flex;
     width: 100vw;
     flex-direction: column;
@@ -270,10 +270,13 @@ article {
     justify-content: center;
     width: 100vw;
     padding-left: 7rem;
+    padding-bottom: 2rem;
 }
 
 .dimensions {
+    height: 25rem;
     background-color: #607c6f;
+    padding-top: 30px;
 }
 
 /* BODY - GAME INFORMATION */
