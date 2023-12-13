@@ -359,6 +359,7 @@ span {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 100px;
+    padding-bottom: 3rem;
 }
 
 a[href="mailto:mdhl@chihockey.org"],
