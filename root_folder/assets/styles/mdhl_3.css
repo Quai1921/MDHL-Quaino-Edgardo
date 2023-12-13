@@ -14,7 +14,7 @@
     /* align-items: center; */
     justify-content: space-between;
     background-image: url(../images/design1_image3.jpg);
-    background-size: cover ;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -27,11 +27,11 @@
     text-shadow: 3px 4px #8b8989;
 }
 
-a{
+a {
     transition: transform 0.2s
 }
 
-a:hover{
+a:hover {
     transform: scale(1.1)
 }
 
@@ -123,18 +123,20 @@ a.nav-browser5[href="#"] {
 
 #date-1:hover,
 #date-2:hover,
-#date-3:hover{
+#date-3:hover {
     transform: scale(1.1)
 }
 
 
-.subtitle, .subtitle-about {
+.subtitle,
+.subtitle-about {
     color: rgb(0, 0, 0);
     font-size: 2rem;
     text-decoration: underline;
 }
 
-.paragraph, .paragraph-about {
+.paragraph,
+.paragraph-about {
     color: rgb(98, 99, 100);
     font-size: 1.3rem;
 }
@@ -159,7 +161,7 @@ a.nav-browser5[href="#"] {
 }
 
 .email {
-    font-size: 1.5rem;   
+    font-size: 1.5rem;
 }
 
 /* BODY - ABOUT */
@@ -192,20 +194,20 @@ a.nav-browser5[href="#"] {
 
 #article-1:hover,
 #article-2:hover,
-#article-3:hover{
+#article-3:hover {
     transform: scale(1.1)
 }
 
+/* BODY - RULES */
 .headers-list {
+    padding-right: 0.7rem;
     font-weight: bold;
     font-size: 2rem;
     color: rgb(240, 199, 17);
     text-shadow: 3px 1px #5c5b5b;
     font-style: italic;
-    
 }
 
-/* BODY - RULES */
 dl,
 ol,
 .ihf-field,
@@ -217,9 +219,9 @@ ul {
 .ihf-field {
     font-size: 2rem;
     text-decoration: underline;
-    background-color: rgb(240, 199, 17);
+    /* background-color: rgb(240, 199, 17); */
     width: 100vw;
-    min-height: 3rem;
+    min-height: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -329,35 +331,37 @@ td {
     border: 2px solid rgb(107, 124, 106);
 }
 
-h4 {
-    margin-top: 0.1rem;
-    padding: 1.5rem;
-    font-size: 1.5rem;
-    font-style: italic;
-    background-color: rgb(245, 231, 168);
-    width: 100vw;
-    min-height: 3rem;
+.article-fall {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    align-items: start;
+
     color: rgb(12, 53, 11);
-    gap: 0.5rem;
-} 
+}
 
 span {
     font-weight: bolder;
     text-decoration: underline;
 }
 
-#article-fall {
+.facility,
+.additional,
+.questions,
+.phone-email {
+    display: flex;
+    font-size: 1.5rem;
+    font-style: italic;
+    padding: 0.7rem 0.5rem 0.7rem 6rem;
+}
+
+.phone-email {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    width: 99.12vw; 
+    flex-wrap: wrap;
+    gap: 100px;
 }
 
 a[href="mailto:mdhl@chihockey.org"],
-a[href="tel:+6306908132"]{
+a[href="tel:+6306908132"] {
     transform: none;
 }
