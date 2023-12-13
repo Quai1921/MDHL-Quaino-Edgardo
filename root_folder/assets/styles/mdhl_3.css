@@ -354,7 +354,7 @@ span {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    width: 99vw;
+    width: 99.12vw; 
 }
 
 a[href="mailto:mdhl@chihockey.org"],
