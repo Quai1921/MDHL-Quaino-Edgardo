@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* HEADER */
+/* ------------------------------------------------------------------------------HEADER --------------------------------------------------------------------*/
 .container-header {
     min-height: 250px;
     padding: 0px 50px;
@@ -87,7 +87,7 @@ a.nav-browser6[href="#"] {
     text-decoration: underline;
 }
 
-/* TITLE */
+/* -------------------------------------------------------------------------------TITLE ------------------------------------------------------------*/
 .title {
     display: flex;
     flex-direction: column;
@@ -100,7 +100,7 @@ a.nav-browser6[href="#"] {
     font-style: oblique;
 }
 
-/* BODY - HOME - ABOUT*/
+/* ------------------------------------------------------------------------BODY - HOME - ABOUT -----------------------------------------------------*/
 .calendar {
     display: flex;
     flex-wrap: wrap;
@@ -147,7 +147,7 @@ a.nav-browser6[href="#"] {
     border-radius: 15px;
 }
 
-/* PAGE - CONTACT */
+/* --------------------------------------------------------------------------PAGE - CONTACT -----------------------------------------------------------------------*/
 .contact {
     min-height: 200px;
     display: flex;
@@ -161,7 +161,7 @@ a.nav-browser6[href="#"] {
     font-size: 1.5rem;
 }
 
-/* BODY - ABOUT */
+/* ----------------------------------------------------------------------------BODY - ABOUT -----------------------------------------------------------------------*/
 .articles {
     display: flex;
     padding-top: 15px;
@@ -188,7 +188,7 @@ a.nav-browser6[href="#"] {
     box-shadow: 3px 3px 3px rgb(34, 34, 34)
 }
 
-/* BODY - RULES */
+/* ---------------------------------------------------------------------------BODY - RULES --------------------------------------------------------------------------*/
 .headers-list {
     padding-right: 0.7rem;
     font-weight: bold;
@@ -265,12 +265,12 @@ article {
 }
 
 .dimensions {
-    height: 25rem;
+    min-height: 25rem;
     background-color: #607c6f;
     padding-top: 30px;
 }
 
-/* BODY - GAME INFORMATION */
+/* -----------------------------------------------------------------BODY - GAME INFORMATION -----------------------------------------------------------*/
 .game-info {
     display: flex;
     justify-content: center;
@@ -355,7 +355,7 @@ a[href="tel:+6306908132"] {
     transform: none;
 }
 
-/* REGISTRATION FORM */
+/* -----------------------------------------------------------------REGISTRATION FORM -----------------------------------------------------*/
 .title-reg {
     display: flex;
     flex-direction: column;
@@ -475,6 +475,7 @@ small {
 .agree {
     padding-top: 1rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     font-size: 1.3rem;
     font-weight: bolder;
@@ -511,7 +512,7 @@ hr {
     margin-top: 1rem;
 }
 
-/* MAPS */
+/* ----------------------------------------------------------MAPS --------------------------------------------------------------*/
 iframe {
     width: 150px;
     height: 80px;
@@ -520,4 +521,158 @@ iframe {
 
 td:hover {
     background-color: rgb(223, 201, 106);
+}
+
+
+/* -----------------------------------------------------MEDIA QUERIES (max-width: 768px)----------------------------------------*/
+@media screen and (max-width: 768px) {
+    .header_text {
+        display: none;
+    }
+
+    .calendar {
+        padding-top: 10px;
+        gap: 10px;
+    }
+
+    .container-header {
+        justify-content: center;
+    }
+
+    .nav-browser1,
+    .nav-browser2,
+    .nav-browser3,
+    .nav-browser4,
+    .nav-browser5,
+    .nav-browser6{
+        position: static;
+    }
+
+    .articles {
+        padding-top: 10px;
+        gap: 10px;
+    }
+
+    .paragraph-about {
+        font-size: 1.1rem;
+    }
+
+    #article-1,
+    #article-2,
+    #article-3{
+        height: 270px;
+    }
+
+    .title > p {
+        display: none;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .title-reg{
+        text-align: center;
+        width: 100%;
+    }
+
+    .sportsmanship {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        justify-content: center;
+        padding-right: 15px;
+    }
+
+    .ihf-field {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+        padding-right: 35px;
+    }
+
+    .dimensions {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 35px;
+    }
+
+    .allplay {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 35px;
+    }
+
+    .un-list {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 35px;
+    }
+
+    table{
+        display: none;
+    }
+
+    .facility,
+    .additional,
+    .questions,
+    .phone-email {
+        padding-left: 15px;
+        padding-right: 40px;
+        font-size: 1rem;
+    }
+    .container-form {
+        width: 100%;
+    }
+    
+    fieldset,
+    .dates-pers,
+    .gender,
+    .personal-date,
+    .grade,
+    .school,
+    .position,
+    .uniform,
+    .permision_play{
+        width: 100%;
+        font-size: 15px;
+        gap: 1px;
+    }
+    .input-date {
+        width: 80px;
+    }
+    
+    .input-parent{
+        width: 80px;
+    }
+}
+
+/* ---------------------------------------------MEDIA QUERIES (min-width: 769px) and (max-width:1600px)-------------------------*/
+@media screen and (min-width: 769px) and (max-width:1600px) {
+    .nav-browser1,
+    .nav-browser2,
+    .nav-browser3,
+    .nav-browser4,
+    .nav-browser5,
+    .nav-browser6{
+        position: static;
+    }
+    .calendar {
+        padding-top: 10px;
+        gap: 10px;
+    }
+    .header_text {
+        font-size: 45px;
+    }
+    .container-header {
+        justify-content: center;
+    }
+    .articles {
+        padding-top: 10px;
+        gap: 20px;
+    }
+
+    .title-reg{
+        text-align: center;
+        width: 100%;
+    }
 }
